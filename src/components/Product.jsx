@@ -36,7 +36,7 @@ function Product({ title, id, price, image }) {
         {/* More details button */}
         <button
           type="button"
-          className="group relative w-full"
+          className="group relative w-fit"
           data-tooltip-target="tooltip-default"
           onClick={() => navigate(`/products/${id}`)}
         >
@@ -44,7 +44,7 @@ function Product({ title, id, price, image }) {
           <div
             id="tooltip-default"
             role="tooltip"
-            className="invisible absolute bottom-full left-1/4 z-10 mb-2 inline-block w-32 -translate-x-1/2 rounded-lg bg-black px-2 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 group-hover:visible group-hover:opacity-100"
+            className="invisible absolute bottom-full left-14 z-10 mb-2 inline-block w-32 -translate-x-1/2 rounded-lg bg-black px-2 py-2 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 group-hover:visible group-hover:opacity-100"
           >
             More Details
             <div className="tooltip-arrow" data-popper-arrow></div>
