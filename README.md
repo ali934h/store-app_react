@@ -20,7 +20,7 @@ A feature-rich e-commerce application built using React, Tailwind CSS, and Vite,
 - Category Filtering: Filter products by categories.
 - Shopping Cart: Add and manage products in the shopping cart.
 - Checkout Process: Review and finalize your order.
-- Responsive UI: Utilizes Tailwind CSS and Flowbite for a responsive and modern user interface.
+- Responsive UI: Utilizes Tailwind CSS for a responsive and modern user interface.
 
 ## Getting Started
 
@@ -122,8 +122,6 @@ The following scripts are defined in package.json:
   - `react-router-dom`: Declarative routing for React.
   - `axios`: Promise-based HTTP client for making API requests.
 - UI and Styling:
-  - `@material-tailwind/react`: Tailwind CSS components for React.
-  - `flowbite`: Tailwind CSS component library.
   - `react-icons`: Collection of popular icons for React.
   - `react-loader-spinner`: Collection of loaders and spinners for React.
 - Development:

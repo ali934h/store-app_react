@@ -2,8 +2,6 @@ import React from "react"; // Import the React library
 import ReactDOM from "react-dom/client"; // Import the ReactDOM library for rendering the app
 import App from "./App.jsx"; // Import the main App component
 import "./assets/css/outputTailwind.css"; // Import Tailwind CSS for styling
-import "flowbite"; // Import Flowbite for additional UI components
-
 import { BrowserRouter } from "react-router-dom"; // Import BrowserRouter for routing
 
 // Render the application to the DOM
