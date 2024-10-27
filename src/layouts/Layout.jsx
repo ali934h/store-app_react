@@ -15,7 +15,7 @@ function Layout({ children }) {
   }, 0);
 
   return (
-    <div className="virtualBody flex h-full min-h-screen w-full flex-col items-center bg-slate-200 px-2 md:px-4 lg:px-5">
+    <div className="virtualBody font-BricolageGrotesque flex h-full min-h-screen w-full flex-col items-center bg-slate-200 px-2 md:px-4 lg:px-5">
       <div className="flex min-h-screen w-full flex-col items-center gap-y-7 py-2 lg:w-11/12">
         <header className="flex w-full items-center justify-between gap-x-2 rounded-md bg-primary px-6 py-2 text-lg font-bold text-white">
           {/* Link to the store app home */}
